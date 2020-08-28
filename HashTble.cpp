@@ -99,12 +99,6 @@ public:
 			}
 		}
 	}
-	void HashResize(){
-		size_t buckSize=_N;
-		if(size==buckSize){
-			
-		}
-	}
 
 protected:
 	int HashFun(const Type &key){
