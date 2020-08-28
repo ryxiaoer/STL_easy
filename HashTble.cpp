@@ -8,8 +8,7 @@ using namespace std;
 
 template<class Type>
 class HashNode{
-	//friend class HashTable<Type,_N>; //这里_N没有，GG，于是把私有悄悄改为public，暂时还没想到怎么解决
-public:
+	//friend class HashTable<Type,_N>; //这里_N没有，GG，
 	HashNode(Type d=Type()):data(d),link(nullptr)
 	{}
 public:
